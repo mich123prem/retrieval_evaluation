@@ -36,9 +36,10 @@
 
 
 ## How to use
-* Pay particular attention to the run() function under "Utility functions"
-        * It has parameters with default values (for example the query file name), that you can override when calling. 
-        * Comapre a couple of calls to run down the notebook with the function definition. 
+Pay particular attention to the run() function under "Utility functions"
+
+    * It has parameters with default values (for example the query file name), that you can override when calling. 
+    * Comapre a couple of calls to run down the notebook with the function definition. 
 
 
 
