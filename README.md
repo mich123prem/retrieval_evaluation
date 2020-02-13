@@ -25,14 +25,22 @@
   * pip install elasticsearch.
 
 
-* (Registered users only) You will need the **plink** utility to connect to our elasticsearch installation while off-campus.
-  * Download the appropriate putty package from [this site](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
-  * Run the windows installer
-  * Establish an ssh-tunnell against the ark1.oslomet.no server: (can be attached to a clickable icon)
-    * open a command window (cmd.exe)
-    * run the following: 
-	  * %windir%\system32\cmd.exe /C plink -N  -L 9200:localhost:9200 s******@ark1.hioa.no -pw mbib4230
-	  * s****** is your student login
+
+
+* (Registered users only) Establish a tunnel for using Oslomets elasticsearch installation
+  
+  * MAC and Linux: 
+  
+    * run: ssh -N  -L 9200:localhost:9200 s******@ark1.hioa.no -pw mbib4230
+    * s****** is your student login
+	*  Windows: You will need the **plink** utility to connect to our elasticsearch installation while off-campus.
+	  * Download the appropriate putty package from [this site](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+	  * Run the windows installer
+	  * Establish an ssh-tunnell against the ark1.oslomet.no server: (can be attached to a clickable icon)
+	    * open a command window (cmd.exe)
+	    * run the following: 
+		  * %windir%\system32\cmd.exe /C plink -N  -L 9200:localhost:9200 s******@ark1.hioa.no -pw mbib4230
+		  * s****** is your student login
 
 
 ## How to use
