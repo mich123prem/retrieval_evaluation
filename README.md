@@ -25,8 +25,6 @@
   * pip install elasticsearch.
 
 
-
-
 * (Registered users only) Establish a tunnel for using Oslomets elasticsearch installation
   
   * MAC and Linux: 
