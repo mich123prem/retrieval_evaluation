@@ -16,7 +16,8 @@
 
 ## Before use:
 * install pytrec_eval: 
-  * The **pip install** currently does not work properly. 
+  * Try **pip install pytrec_eval**.
+* if pip install fails:
   * download the repository from https://github.com/cvangysel/pytrec_eval ("clone or download"), open the zip file, and run:
     * python3 setup.py build
     * python3 setup.py install
@@ -25,19 +26,22 @@
   * pip install elasticsearch.
 
 
+
+
 * (Registered users only) Establish a tunnel for using Oslomets elasticsearch installation
   
   * MAC and Linux: 
   
-    * run: ssh -N  -L 9200:localhost:9200 s******@ark1.hioa.no -pw mbib4230
+    * run: ssh -N  -L 9200:localhost:9200 s******@ark2.oslomet.no -pw mbib4230
     * s****** is your student login
-	*  Windows: You will need the **plink** utility to connect to our elasticsearch installation while off-campus.
+  * Windows: 
+    * You will need the **plink** utility to connect to our elasticsearch installation while off-campus.
 	  * Download the appropriate putty package from [this site](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 	  * Run the windows installer
 	  * Establish an ssh-tunnell against the ark1.oslomet.no server: (can be attached to a clickable icon)
 	    * open a command window (cmd.exe)
 	    * run the following: 
-		  * %windir%\system32\cmd.exe /C plink -N  -L 9200:localhost:9200 s******@ark1.hioa.no -pw mbib4230
+		  * %windir%\system32\cmd.exe /C plink -N  -L 9200:localhost:9200 s******@ark2.hioa.no -pw mbib4230
 		  * s****** is your student login
 
 
