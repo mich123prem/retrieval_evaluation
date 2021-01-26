@@ -19,6 +19,7 @@
 * The Retrieve.ipynb notebook
 * Two example query files (brief and full version of queries 156-160 from the accompanying queries of clueweb (TREC2012)
 * The qrels.adhoc file from TREC2012 with the following labels:
+
     4 = Nav This page represents a home page of an entity directly named by the query; the user may be searching for this specific page or site.
 
     3 = Key This page or site is dedicated to the topic; authoritative and comprehensive, it is worthy of being a top result in a web search engine.
