@@ -14,6 +14,24 @@
   year={2018},
 }
 
+## The folder includes
+* This README file
+* The Retrieve.ipynb notebook
+* Two example query files (brief and full version of queries 156-160 from the accompanying queries of clueweb (TREC2012)
+* The qrels.adhoc file from TREC2012 with the following labels:
+    4 = Nav This page represents a home page of an entity directly named by the query; the user may be searching for this specific page or site.
+
+    3 = Key This page or site is dedicated to the topic; authoritative and comprehensive, it is worthy of being a top result in a web search engine.
+
+    2 = HRel The content of this page provides substantial information on the topic.
+
+    1 = Rel The content of this page provides some information on the topic, which may be minimal; the relevant information must be on that page, not just promising-looking anchor text pointing to a possibly useful page.
+
+    0 = Non The content of this page does not provide useful information on the topic, but may provide useful information on other topics, including other interpretations of the same query.
+
+    -2 = Junk This page does not appear to be useful for any reasonable purpose; it may be spam or junk.
+
+
 ## Before use:
 * install pytrec_eval: 
   * Try **pip install pytrec_eval**.
